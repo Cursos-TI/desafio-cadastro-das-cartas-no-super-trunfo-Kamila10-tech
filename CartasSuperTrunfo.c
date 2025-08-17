@@ -2,14 +2,14 @@
 
 int main() {
     // Variáveis da primeira carta
-    char codigo1[4];  // 3 caracteres + 1 para o '\0'
+    char codigo1[8];  
     int populacao1;
     float area1;
     float pib1;
     int pontosTuristicos1;
 
     // Variáveis da segunda carta
-    char codigo2[4];
+    char codigo2[8];
     int populacao2;
     float area2;
     float pib2;
@@ -18,7 +18,7 @@ int main() {
     // Cadastro da primeira carta
     printf("Cadastro da Primeira Carta:\n");
     printf("Informe o código da cidade (ex: A01): ");
-    scanf("%3s", codigo1);  // Lê no máximo 3 caracteres
+    scanf("%3s", codigo1); 
     printf("Informe a população: ");
     scanf("%d", &populacao1);
     printf("Informe a área em km²: ");
@@ -41,7 +41,7 @@ int main() {
     printf("Informe o número de pontos turísticos: ");
     scanf("%d", &pontosTuristicos2);
 
-    // Exibição dos dados cadastrados
+    // Exibição dos dados 
     printf("\n--- Dados da Primeira Carta ---\n");
     printf("Código: %s\n", codigo1);
     printf("População: %d\n", populacao1);
